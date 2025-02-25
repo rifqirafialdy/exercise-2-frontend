@@ -30,16 +30,22 @@ nav {
 nav ul {
   display: flex;
   gap: 48px;
+  list-style: none;
 }
 
 /* Check list link style */
 nav ul li a {
-
+text-decoration: none;
+color: #555;
+font-weight: 300;
+font-size: 16px;
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
-  
+  font-weight: bold;
+  color: #000;
+  transition: color 0.3s ease;
 }
 
 
@@ -53,10 +59,16 @@ main {
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 /* Check font styling */
 .text h1 span {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 900;
+  color:#4A9A7E;
 }
 
 /* Check font styling */
@@ -69,15 +81,30 @@ main {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   gap: 8px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-size: 18px;
+
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  background-color: #4A9A7E;
+  transition: color 0.3s ease;
+font-weight: bolder;
 }
 
 /* Check the text styling */
 footer {
   font-family: 'Open Sans', sans-serif; 
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
+  
 }
 
 /* Check the text styling */
@@ -85,6 +112,13 @@ footer a {
   color: #000;
   text-decoration: none;
   font-weight: 700;
+  margin-left: 10px;
+}
+footer a:hover{
+  color: #4A9A7E;
+  font-size: larger;
+  font-weight: bolder;
+  transition: color o.3s ease;
 }
 
 #balls {
